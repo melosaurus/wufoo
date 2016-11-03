@@ -1,0 +1,68 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Custom CSS For Wufoo Forms (currently only affecting the eCourse Form on Homepage)
+ URL : http://wufoo.com
+
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - Default - - - */
+
+/* Backgrounds */
+html{background-image:none;background-color: #314c60;}
+// #logo{background-image:none;background-color:#669900}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF}
+.wufoo .focused{background:#fff}
+// .wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{
+	border:0 solid #cccccc;
+	border-radius: 0.25em;
+	padding: 25px;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.65);
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.65);
+}
+
+//.wufoo .info{border-bottom:1px dotted #CCCCCC}
+//.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:inherit;color:##3e5164}
+.wufoo .info div{display:none;}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:##3e5164}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#333;}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#ff9e16;}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#333}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{border-radius: 0.25em; font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#333;}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#333;
+}
+
+header#header.info {
+	display: none;
+}
+
+.wufoo input.btTxt {
+	color: #ffffff;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #ff9e16;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    padding: 1em 3em !important;
+    box-shadow: 0 4px 9px rgba(0,0,0,0.75) !important;
+    border-radius: 0.25em;
+    display: inline-block;
+    position: relative;
+    font-family: "Open Sans",sans-serif;
+}
+
+.wufoo input.btTxt:hover {
+    background-color: #d16f18;
+    text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.5);
+}
